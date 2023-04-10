@@ -6,4 +6,6 @@ ESG-Chat is a programmatic chatbot that can answer queries related to ESG (envir
 
 ### Method: Text embedding similarity search using GPT-3
 
+In this method, 15 sustainability reports from various companies (Starbucks, Goldman Sachs, Nestle, Toyota, Xerox, many more) were extracted and decomposed into 5-10 sentences. Then, embedding was calculated using OpenAI's [text-embedding-ada-002](https://openai.com/blog/new-and-improved-embedding-model) model. An embedding is a vector of numbers that helps us understand how semantically similar or different the texts are. The closer two embeddings are to each other, the more similar are their contents. 
+
 Why use this method? Naive GPT models like ChatGPT sometimes can hallucinate because we don't give **context** to it. Because sustainability is core to business, hallucinating is something that we must avoid if we want to implement chat bot for this purpose. 
