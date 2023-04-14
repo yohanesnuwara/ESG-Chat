@@ -104,7 +104,7 @@ def answer_query_with_context(
 
     response = openai.Completion.create(
                 prompt=prompt,
-                temperature=0.,
+                temperature=0.5,
                 max_tokens=1000,
                 model="text-davinci-003"
             )
