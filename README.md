@@ -20,8 +20,13 @@ Install the required libraries and clone this repository. The syntax is very sim
 
 ```
 key_api = # Your API key
-query = "How to reduce plastic waste? Give long and detail answer."
+query = "How to reduce waste? Give long and detail answer."
 
 chat_ESG(key_api, query)
 ```
 
+Here is sample response from ESG-Chat:
+
+```
+Reducing waste can be done in a number of ways, from eliminating paper-based client communications and fully leveraging digital media for internal communications, to reducing reliance on printed promotional material and eliminating single-use plastics such as plastic bottles and straws. Additionally, reducing food waste in cafeterias and micro-market cafes is important, as is encouraging suppliers to set up water and waste reduction targets. Carrefour has set a target to reduce its food waste by 50% by 2025 compared to 2016, and this can be achieved by implementing measures such as crop growing and harvesting, sorting, packaging and transport, quality control, distribution and consumption. Finally, reducing waste, increasing recyclability and circularity, and managing recovered materials effectively are critical for society, and consumer goods companies can play an important role in this.
+```
