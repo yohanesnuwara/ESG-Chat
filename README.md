@@ -13,3 +13,15 @@ Why use this method? Naive GPT models like ChatGPT sometimes can hallucinate bec
 ### Required libraries
 * openai 0.27.4
 * tiktoken 0.3.3
+
+### How to use ESG-Chat
+
+Install the required libraries and clone this repository. The syntax is very simple. Provide your OpenAI API Key (if you don't have, you need to sign up first and get it [here](https://platform.openai.com/account/api-keys)), create your prompt, and run the following
+
+```
+key_api = # Your API key
+query = "How to reduce plastic waste? Give long and detail answer."
+
+chat_ESG(key_api, query)
+```
+
