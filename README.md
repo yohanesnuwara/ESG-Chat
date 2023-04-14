@@ -1,6 +1,6 @@
 # ESG-Chat
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7829222.svg)](https://doi.org/10.5281/zenodo.7829222)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7829233.svg)](https://doi.org/10.5281/zenodo.7829233)
 
 <img src="https://user-images.githubusercontent.com/51282928/230783659-fbe9b43f-01d2-48fd-84d5-eefd093fb628.png" alt= "esg-chat" width="700">
 
